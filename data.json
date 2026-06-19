@@ -1,0 +1,31 @@
+{
+    "pygame": {
+        "version": 0.1,
+        "description": "PYGAME!!",
+        "path": {
+            "pygame": [
+                "__init__.py",
+                "display.py",
+                "data.py",
+                "event.py",
+                "font.py"
+            ]
+        },
+        "dependency": ["test"]
+    },
+
+    "test": {
+        "version": 0.1,
+        "description": "test!",
+        "path": {
+            "test": [
+                "test.py"
+            ],
+
+            "test/test2": [
+                "test2.py"
+            ]
+        },
+        "dependency": []
+    }
+}
